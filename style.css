@@ -1,0 +1,91 @@
+.title{
+    text-align: center;
+    background-color:steelblue;
+    padding: 0.3em;
+    border: 1px solid black;
+    color:ghostwhite;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 3.5%;
+    box-shadow: 5px 5px 20px black;
+    font-size: 3em
+}
+.about{
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px black;
+    color:ghostwhite;
+    background-color: steelblue;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    font-size: 2.5em;
+}
+.aboutme{
+    text-align: center;
+    background-color: steelblue;
+    border: 1px solid black;
+    color: ghostwhite;
+    box-shadow: 5px 5px 20px black;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.5em;
+    word-spacing: 0.2em;
+    padding: 1em;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(rgb(21, 24, 202), rgb(10, 137, 175));
+    font-size: 1.4em;
+}
+  
+li {
+    float: left;
+    margin-left: 1em;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.myself {
+    display: block;
+    max-width: 295px;
+    max-height: 315px;
+    border-radius: 5%;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14%;
+}
+
+
+body{
+    background: url(images/bluelandscape.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    height: 80vh;
+    background-color: thistle;
+}
