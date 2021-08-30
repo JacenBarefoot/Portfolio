@@ -1,2 +1,2 @@
-# Portfolio
- My public portfolio
+# My Public Portfolio
+ This is my Personal Portfolio
