@@ -9,7 +9,7 @@ h3{
     margin-left: 37%;
     margin-right: 37%;
     margin-bottom: 3.5%;
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
 .title{
@@ -107,12 +107,20 @@ body{
     background-color: thistle;
 }
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(320px, 1fr));
-    grid-gap: 4rem;
-    width: 95%;
-    max-width: 1280px;
-    margin: 0 auto;
-    margin-bottom: 2rem;
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.linked{
+    height: 8em;
+    width: 8em;
+}
+
+.gram{
+    margin-left: 8em;
+    height: 8em;
+    width: 8em;
 }
