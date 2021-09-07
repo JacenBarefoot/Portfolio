@@ -153,8 +153,38 @@ body{
 
 .card1{
     background-color: cadetblue; 
-    padding: 1em; 
-    width: 30%;
-    margin-left: 10%
+    padding: 2em; 
+    width: 25em;
+    margin-left: 10%;
+    height: 22em;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6%
+}
+.hawk{
+    margin-left: 5%;
+}
+.paragraph1{
+    padding: 0em;
+    margin-left: 0%;
+    margin-top: 0em;
+}
+
+.paragraph2{
+    padding: 0em;
+    margin-right: 0%;
+}
+
+.captions{
+    margin-left: 60%;
+    margin-top: -40%;
+}
+
+.alignthem{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 /* ------------------------------------------------------------- */
