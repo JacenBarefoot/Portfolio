@@ -150,3 +150,11 @@ body{
     border-radius: 30%;
     padding: 1.5em;
 }
+
+.card1{
+    background-color: cadetblue; 
+    padding: 1em; 
+    width: 30%;
+    margin-left: 10%
+}
+/* ------------------------------------------------------------- */
