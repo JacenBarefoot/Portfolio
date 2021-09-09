@@ -363,14 +363,14 @@ body{
     .icon{
         width: 24em;
         height: 20em;
-        margin-left: 1em;
+        margin-left: 3em;
         flex-wrap: wrap;
     }
     .about{
         width: 8em;
         height: 1.5em;
         margin-top: 4em;
-        margin-left: 2em;
+        margin-left: 4em;
         padding-top: 0.5em;
         padding-bottom: -5em;
         border-radius: 0.5em;
@@ -405,7 +405,7 @@ body{
     .icon{
         width: 24em;
         height: 20em;
-        margin-left: 3em;
+        margin-left: 1em;
         flex-wrap: wrap;
     }
     .about{
@@ -416,7 +416,7 @@ body{
         padding-top: 0.5em;
         padding-bottom: -5em;
         border-radius: 0.5em;
-        margin-left: 3em
+        margin-left: 1.15em
     }
     .navbar{
         font-size: 1.5em;
