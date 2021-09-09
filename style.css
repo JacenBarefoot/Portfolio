@@ -299,7 +299,7 @@ body{
     border: .25em solid darkslateblue;
 }
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 400px) {
     .linked{
         max-width: 5em;
         max-height: 5em;
