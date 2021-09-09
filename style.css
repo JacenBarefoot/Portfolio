@@ -1,5 +1,5 @@
 h3{
-    margin-top: 11%;
+    margin-top: 10%;
     text-align: center;
     color: ghostwhite;
     background-color:steelblue;
@@ -10,6 +10,7 @@ h3{
     margin-bottom: 3.5%;
     font-size: 1.6em;
     border-radius: 2em;
+    padding-top: 0.4em
 }
 
 .title{
@@ -118,6 +119,7 @@ body{
     margin-left: 20%; 
     margin-right: 20%;
     border-radius: 1em;
+    box-shadow: 5px 5px 20px black;
 }
 .icon :hover{
     border: .25em solid darkslateblue;
@@ -130,11 +132,32 @@ body{
     padding: 1.5em;
 }
 
+.linked2{
+    height: 8em;
+    width: 11em;
+}
+
+.sql{
+    height: 8em;
+    width: 11em;
+}
+
+.sql2{
+    height: 10em;
+    width: 10em;
+}
+
 .gram{
     height: 8em;
     width: 8em;
     border-radius: 15%;
     padding: 1.5em;
+}
+
+.gram2{
+    height: 8em;
+    width: 8em;
+    border-radius: 15%;
 }
 
 .mail{
@@ -152,39 +175,127 @@ body{
 }
 
 .card1{
-    background-color: cadetblue; 
+    background-color: steelblue; 
     padding: 2em; 
     width: 25em;
     margin-left: 10%;
-    height: 22em;
+    height: 23em;
+    box-shadow: 5px 5px 20px black;
+    color: ghostwhite;
+    border-radius: 2em;
+}
+
+.card1:hover{
+    border: 1px solid black;
 }
 .row{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 6%
+    margin-right: 6%;
+    margin-top: 3%;
 }
-.hawk{
-    margin-left: 5%;
+.colorthis{
+    color:ghostwhite
 }
-.paragraph1{
-    padding: 0em;
-    margin-left: 0%;
-    margin-top: 0em;
+.colorthis:hover{
+    color: darkslateblue
 }
 
-.paragraph2{
-    padding: 0em;
-    margin-right: 0%;
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6%;
+    margin-top: 5%;
+    padding-bottom: 3em;
+}
+
+.hawk{
+    margin-left: 2%;
 }
 
 .captions{
-    margin-left: 60%;
-    margin-top: -40%;
+    margin-left: 58%;
+    margin-top: -45%;
+    font-size: 1.3em;
+    color:ghostwhite;
+}
+
+.captions:hover{
+    color:darkslateblue;
 }
 
 .alignthem{
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.goat{
+    text-align: center; 
+    padding-bottom: 0em;
+    font-size: 2em;
+}
+
+.goat:hover{
+    color: darkslateblue
+}
+
+.tornado{
+    width: 50%;
+    height: 75%;
+}
+
+
+.icon1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: steelblue;
+    margin-top: 1.8em;
+    margin-left: 20%; 
+    margin-right: 20%;
+    border-radius: 1em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    box-shadow: 5px 5px 20px black;
+
+}
+.icon1 :hover{
+    border: .25em solid darkslateblue;
+}
+
+.whatiwillknow{
+    margin-top: 2%;
+    text-align: center;
+    color: ghostwhite;
+    background-color:steelblue;
+    padding: 0.3em;
+    box-shadow: 5px 5px 20px black;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-bottom: 0%;
+    font-size: 1.6em;
+    border-radius: 2em;
+}
+
+.icon2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: steelblue;
+    margin-top: 1.8em;
+    margin-left: 20%; 
+    margin-right: 20%;
+    border-radius: 1em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    box-shadow: 5px 5px 20px black;
+
+}
+.icon2 :hover{
+    border: .25em solid darkslateblue;
 }
 /* ------------------------------------------------------------- */
