@@ -405,7 +405,7 @@ body{
     .icon{
         width: 24em;
         height: 20em;
-        margin-left: 1em;
+        margin-left: 3em;
         flex-wrap: wrap;
     }
     .about{
@@ -416,7 +416,7 @@ body{
         padding-top: 0.5em;
         padding-bottom: -5em;
         border-radius: 0.5em;
-        margin-left: 1.15em
+        margin-left: 3em
     }
     .navbar{
         font-size: 1.5em;
