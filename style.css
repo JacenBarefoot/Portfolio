@@ -363,7 +363,7 @@ body{
     .icon{
         width: 24em;
         height: 20em;
-        margin-left: 3em;
+        margin-left: 7em;
         flex-wrap: wrap;
     }
     .about{
@@ -374,7 +374,6 @@ body{
         padding-top: 0.5em;
         padding-bottom: -5em;
         border-radius: 0.5em;
-        margin-left: 1.15em
     }
     .navbar{
         font-size: 1.5em;
