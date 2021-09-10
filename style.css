@@ -300,22 +300,8 @@ body{
     border: .25em solid darkslateblue;
 }
 
-@media screen and (max-width: 800px) {
-    .icon{
-        width: 60%;
-        margin-left: 10%;
-    }
-    .alignthem{
-        margin-left: 1%;
-        margin-right: 1%;
-    }
-    .icon2{
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-    
-
-@media screen and (max-width: 400px) {
+ 
+@media screen and (max-width: 1000px) and (min-width: 400px){
     .icon{
         width: 65%;
         margin-left: 10%;
