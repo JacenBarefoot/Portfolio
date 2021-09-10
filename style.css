@@ -314,7 +314,7 @@ body{
 @media screen and (max-width: 400px) {
     .icon{
         width: 55em;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     .alignthem{
         margin-left: 1%;
