@@ -301,7 +301,10 @@ body{
     border: .25em solid darkslateblue;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
+    .icon{
+        width: 60em;
+    }
     
 }
 /* ------------------------------------------------------------- */
