@@ -303,7 +303,6 @@ body{
 @media screen and (max-width: 800px) {
     .icon{
         width: 55em;
-        margin-right: 5%;
     }
     .alignthem{
         margin-left: 0%;
