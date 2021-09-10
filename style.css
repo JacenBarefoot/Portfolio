@@ -310,5 +310,14 @@ body{
     }
     
 
+@media screen and (max-width: 400px) {
+    .icon{
+        width: 55em;
+    }
+    .alignthem{
+        margin-left: 0%;
+        margin-right: 3%;
+    }
+}
 }
 /* ------------------------------------------------------------- */
