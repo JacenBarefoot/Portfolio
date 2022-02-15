@@ -104,10 +104,10 @@ body {
   justify-content: center;
   background-color: steelblue;
   margin-top: 5em;
-  margin-left: 20%;
+  margin: auto;
   border-radius: 1em;
   box-shadow: 5px 5px 20px black;
-  width: 60%;
+  width: 80%;
 }
 .icon :hover {
   border: 0.25em solid darkslateblue;
@@ -190,15 +190,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-right: 6%;
-  margin-top: 5%;
-  padding-bottom: 3em;
-}
-.row3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 6%;
-  margin-top: 5%;
+  margin-top: 3%;
   padding-bottom: 3em;
 }
 .hawk {
@@ -289,10 +281,6 @@ body {
   border: 0.25em solid darkslateblue;
 }
 @media screen and (max-width: 1000px) and (min-width: 400px) {
-  icon {
-    width: 75%;
-    margin-left: 12.5%;
-  }
   .alignthem {
     margin-left: -3.5%;
   }
@@ -360,10 +348,12 @@ body {
     display: flex;
   }
   .about {
-    margin-top: 6em;
-    font-size: 3.5em;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-top: 5em;
+    font-size: 4em;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
   .whatiwillknow {
     font-size: 3.5em;
@@ -384,12 +374,82 @@ body {
     height: 11em;
     padding-left: em;
   }
-  .aboutme{
+  .aboutme {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 6em;
     padding: 2.5em;
     padding-top: 3em;
     padding-bottom: 3em;
+  }
+  .icon {
+    width: 90%;
+    margin-top: 10em;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .linked {
+    height: 18em;
+    width: 18em;
+  }
+  .gram {
+    height: 18em;
+    width: 18em;
+  }
+  .mail {
+    height: 18em;
+    width: 23em;
+  }
+  .hub {
+    height: 18em;
+    width: 18em;
+  }
+  .row {
+    flex-direction: column;
+    margin-right: 6%;
+  }
+  .row2 {
+    flex-direction: column;
+    margin-right: 6%;
+    margin-top: 0%;
+  }
+  .card1 {
+    width: 45em;
+    height: 40em;
+    margin-top: 5%;
+  }
+  img {
+    width: 50%;
+    height: 75%;
+  }
+  .goat {
+    font-size: 3.5em;
+    margin-top: 2%;
+  }
+  .colorthis {
+    font-size: 2em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .linked2 {
+    height: 18em;
+    width: 22em;
+  }
+  .gram2 {
+    height: 18em;
+    width: 18em;
+  }
+  .sql {
+    height: 18em;
+    width: 17em;
+  }
+  .sql2 {
+    height: 18em;
+    width: 18em;
+  }
+  .spring {
+    height: 18em;
+    width: 22em;
   }
 }
