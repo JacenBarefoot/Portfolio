@@ -193,6 +193,14 @@ body {
   margin-top: 3%;
   padding-bottom: 3em;
 }
+.row3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6%;
+  margin-top: 3%;
+  padding-bottom: 3em;
+}
 .hawk {
   margin-left: 2%;
 }
@@ -204,14 +212,42 @@ body {
 }
 .captions {
   margin-left: 58%;
-  margin-top: -60%;
+  margin-top: -68%;
   font-size: 1em;
   color: ghostwhite;
   cursor: pointer;
 }
-.captions1 {
+.captions1{
   margin-left: 58%;
-  margin-top: -80%;
+  margin-top: -90%;
+  font-size: 1em;
+  color: ghostwhite;
+  cursor: pointer;
+}
+.captions2{
+  margin-left: 58%;
+  margin-top: -72.3%;
+  font-size: 1em;
+  color: ghostwhite;
+  cursor: pointer;
+}
+.captions3{
+  margin-left: 58%;
+  margin-top: -70%;
+  font-size: 1em;
+  color: ghostwhite;
+  cursor: pointer;
+}
+.captions4{
+  margin-left: 58%;
+  margin-top: -62%;
+  font-size: 1em;
+  color: ghostwhite;
+  cursor: pointer;
+}
+.captions5{
+  margin-left: 58%;
+  margin-top: -63.5%;
   font-size: 1em;
   color: ghostwhite;
   cursor: pointer;
@@ -302,6 +338,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5em;
+    margin-bottom: 5em;
   }
   .icon1 {
     margin-left: 4%;
@@ -336,7 +373,7 @@ body {
     padding-bottom: 0.5em;
   }
   h3 {
-    margin-top: 5.2em;
+    margin-top: 7.2em;
     font-size: 4em;
     margin-left: 6%;
     margin-right: 6%;
@@ -421,11 +458,17 @@ body {
     flex-direction: column;
     margin-right: 6%;
     margin-top: 0%;
+    padding: 0%;
+  }
+  .row3 {
+    flex-direction: column;
+    padding-bottom: 10%
   }
   .card1 {
     width: 45em;
     height: 40em;
     margin-top: 5%;
+    padding: 3em
   }
   img {
     width: 50%;
@@ -459,5 +502,17 @@ body {
   .spring {
     height: 18em;
     width: 22em;
+  }
+  .captions{
+    margin-top: -63.5%;
+  }
+  .captions1{
+    margin-top: -86%;
+  }
+  .captions3{
+    margin-top: -69%;
+  }
+  .captions4{
+    margin-top: -58%;
   }
 }
