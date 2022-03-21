@@ -107,7 +107,7 @@ body {
   margin: auto;
   border-radius: 1em;
   box-shadow: 5px 5px 20px black;
-  width: 80%;
+  width: 60%;
 }
 .icon :hover {
   border: 0.25em solid darkslateblue;
