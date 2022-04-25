@@ -108,7 +108,6 @@ body {
   background-position: center center;
   background-size: cover;
   margin: 0px;
-  height: 75vh;
   background-color: thistle;
 }
 .icon {
@@ -353,9 +352,10 @@ a {
     margin-bottom: 5em;
   }
   .skills-icons {
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 4em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 9%;
   }
   .linked {
     width: 11em;
@@ -464,11 +464,11 @@ a {
   }
   .row {
     flex-direction: column;
-    margin-right: 6%;
+    margin-right: 9%;
   }
   .row2 {
     flex-direction: column;
-    margin-right: 6%;
+    margin-right: 9%;
     margin-top: 0%;
     padding: 0%;
   }
@@ -483,7 +483,6 @@ a {
     padding: 3em
   }
   img {
-    width: 50%;
     height: 75%;
   }
   .goat {
@@ -511,15 +510,39 @@ a {
     width: 22em;
   }
   .captions{
-    margin-top: -63.5%;
+    margin-top: -488px;
+    font-size: 30px;
+    margin-left: 396px;
+    margin-right: 22px;
+  }
+  .captions2{
+    margin-top: -517px;
+    font-size: 27px;
+    margin-left: 438px;
+    margin-right: 2px;
   }
   .captions1{
-    margin-top: -86%;
+    margin-top: -657px;
+    font-size: 28px;
+    margin-left: 435px;
+    margin-right: 14px;
   }
   .captions3{
-    margin-top: -69%;
+    margin-top: -497px;
+    font-size: 27px;
+    margin-left: 438px;
+    margin-right: 2px;
   }
   .captions4{
-    margin-top: -58%;
+    margin-top: -517px;
+    font-size: 27px;
+    margin-left: 438px;
+    margin-right: 2px;
+  }
+  #skillsPage{
+    height: 95vh !important;
+  }
+  #projectsPage{
+    margin-bottom: 75px !important;
   }
 }
