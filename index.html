@@ -1,18 +1,20 @@
 <html>
     <head>
         <title>Jacen's Portfolio</title>
+        <link rel="shortcut icon" type="image/png" href="images/skateboardShortcutIcon.webp"/>        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="style.css" rel="stylesheet" type="text/css">
-        <link rel="shortcut icon" type="image/png" href="images/skateboardShortcutIcon.webp"/>
     </head>
     <body>
-        <div id="navbar">
-            <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="javascript:void(0);" class="icon1" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
         <section id="homepage">
             <div id="homestuff">
@@ -21,5 +23,17 @@
                 <h3 class="homepage-name">Jacen Barefoot</h3>
             </div>
         </section>
+
+    <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+    </script>
+            
     </body>
 </html>
